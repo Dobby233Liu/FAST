@@ -1,0 +1,12 @@
+<resources>
+    <string name="help_label">帮助</string>
+    <string name="help_content">
+        <![CDATA[
+        <H1>回答</H1>只要输入关键词就可以找到应用。点击启动，长按看到更多选项。
+        <H1>问题</H1>
+        <a href="https://plus.google.com/b/108684152853280523320">问问社区</a>或问<a href="mailto:ligi@ligi.de">作者</a>. 并且如果你要翻译的话，联系作者—里面的单词并不太多！
+        <H1>致谢</H1>
+        感谢 <a href="https://github.com/talexop">talexop</a>, <a href="https://github.com/pserwylo">彼得·塞维洛</a>, <a href="http://www.petervasil.net">彼得·瓦西尔</a>, <a href="https://github.com/ShadowKyogre">ShadowKyogre</a>, <a href="https://github.com/SebiderSushi">SebiderSushi</a> 和 <a href="http://cketti.de">cketti</a> 的贡献!
+        ]]>
+    </string>
+</resources>

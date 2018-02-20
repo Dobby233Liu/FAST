@@ -73,4 +73,6 @@
         <item>By usage</item>
         <item>By installation time</item>
         </string-array>
+<string name="finish_on_launch">Finish on Launch</string>
+<string name="finish_on_launch_summary">Finish FAST on App-Launch</string>
 </resources>

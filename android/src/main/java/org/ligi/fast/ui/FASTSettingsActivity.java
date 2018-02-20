@@ -73,8 +73,8 @@ public class FASTSettingsActivity extends PreferenceActivity {
 
         CheckBoxPreference finishAfterLaunch = new CheckBoxPreference(this);
         finishAfterLaunch.setKey(FASTSettings.KEY_FINISH_ON_LAUNCH);
-        finishAfterLaunch.setTitle("Finish on Launch");
-        finishAfterLaunch.setTitle("Finish FAST on App-Launch");
+        finishAfterLaunch.setTitle(R.string.finish_on_launch);
+        finishAfterLaunch.setSummary(R.string.finish_on_launch_summary);
         finishAfterLaunch.setDefaultValue(false);
 
         ListPreference maxLinesPref = new ListPreference(this);
@@ -163,15 +163,15 @@ public class FASTSettingsActivity extends PreferenceActivity {
         removeCachePreference.setOnPreferenceClickListener(new CacheRemovingOnPreferenceClickListener());
 
         PreferenceCategory displayCategory = new PreferenceCategory(this);
-        displayCategory.setTitle("Display");
+        displayCategory.setTitle("显示");
         root.addPreference(displayCategory);
 
         PreferenceCategory behaviourCategory = new PreferenceCategory(this);
-        behaviourCategory.setTitle("Behaviour");
+        behaviourCategory.setTitle("动作");
         root.addPreference(behaviourCategory);
 
         PreferenceCategory advancedCategory = new PreferenceCategory(this);
-        advancedCategory.setTitle("Advanced");
+        advancedCategory.setTitle("高级");
         root.addPreference(advancedCategory);
 
         displayCategory.addPreference(themePref);

@@ -144,12 +144,12 @@ public class AppActionDialogBuilder extends AlertDialog.Builder {
             @Override
             public void run() {
                 try {
-                    String message = "check out this app: " + App.getStoreURL4PackageName(app_info.getPackageName());
+                    String message = "看看这个程序: " + App.getStoreURL4PackageName(app_info.getPackageName());
                     Intent share = new Intent(Intent.ACTION_SEND);
                     share.setType("text/plain");
                     share.putExtra(Intent.EXTRA_TEXT, message);
 
-                    context.startActivity(Intent.createChooser(share, "Share FAST"));
+                    context.startActivity(Intent.createChooser(share, "分享 FAST"));
                 } catch (android.content.ActivityNotFoundException anfe) {
 
                 }

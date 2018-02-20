@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">FAST 应用搜索</string>
+    <string name="icon">图标</string>
+    <string name="launch_single">自动启动</string>
+    <string name="settings">设置</string>
+    <string name="share">分享</string>
+    <string name="also_use_the_package_name_for_searching">也可以以包名搜索</string>
+    <string name="search_in_package">搜索包</string>
+    <string name="auto_launch_if_only_one_app_left">当只有一个结果时自动启动</string>
+    <string name="open_in_for_all">永远显示 "在 %s 里打开"</string>
+    <string name="even_if_installed_another_way">除了它已经使用另个方法安装</string>
+    <string name="application_details">应用详情</string>
+    <string name="open_in">从何处打开？：</string>
+    <string name="open_as_notification">以通知打开</string>
+    <string name="query_hint">键入关键词</string>
+    <string name="text_only">只显示应用名</string>
+    <string name="no_hidden">显示隐藏应用</string>
+    <string name="cancel">取消</string>
+    <string name="change_label">更改名称</string>
+    <string name="change_label_of">更改 %s 的名称</string>
+    <string name="reset_label">重置名称</string>
+    <string name="remove_alias">移除别名</string>
+    <string name="as_new_entry">添加为一个条目</string>
+    <string name="hide_original_entry">隐藏原条目</string>
+    <string name="hide_app">隐藏</string>
+    <string name="unhide_app">显示</string>
+    <string name="app_gone">应用不存在。</string>
+    <string name="show_no_icons_pure_text">只显示应用名称</string>
+    <string name="show_even_hidden">显示隐藏应用</string>
+    <string name="show_even_hidden_summary">列为列表的最后</string>
+    <string name="max_text_lines">最高文本行数</string>
+    <string name="how_much_text_you_want">最高文本行数</string>
+    <string name="create_shortcut">创建快捷方式</string>
+    <string name="icon_size">图标大小</string>
+    <string name="how_big_icons">你要让图标多大？</string>
+    <string name="theme">主题</string>
+    <string name="choose_your_look">选择它的主题</string>
+    <string name="sort">排列</string>
+    <string name="sort_decr">应用怎么排列？</string>
+    <string name="convert_umlauts">转换变音符号</string>
+    <string name="convert_umlauts_descr">把 ae 改成 ä，oe 就改成 ö, ss 也改成 ß 并且 ue 一起改成 ü</string>
+    <string name="allow_gap_search">模糊搜索</string>
+    <string name="allow_gap_search_descr">不仅仅查整个单词，还查里面的字母</string>
+    <string name="loadingDialogTitle">FAST 正在缓存</string>
+    <string name="ignore_space">忽视空格</string>
+    <string name="ignore_space_descr">从关键词移除最后一个空格</string>
+    <string name="show_keyboard">显示键盘</string>
+    <string name="show_keyboard_descr">启动即输</string>
+    <string name="appActionDialog_title">FAST 启动</string>
+    <string name="remove_cache">清除缓存</string>
+    <string name="remove_cache_descr">强制清除缓存</string>
+    <string name="icon_resolution_title">图标分辨率</string>
+    <string name="icon_resolution_summary">你要的是速度，还是像素？</string>
+    <string name="pin_app">置顶</string>
+    <string name="unpin_app">取消置顶</string>
+    <string-array name="sizes">
+        <item>最小</item>
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </string-array>
+
+    <string-array name="themes">
+        <item>暗</item>
+        <item>亮</item>
+        <item>透明暗</item>
+        <item>透明亮</item>
+    </string-array>
+
+    <string-array name="sort_orders">
+        <item>不排列</item>
+        <item>按字母</item>
+        <item>按使用时间</item>
+        <item>按安装时间</item>
+        </string-array>
+<string name="finish_on_launch">当应用启动时关闭 FAST</string>
+<string name="finish_on_launch_summary">当应用启动时关闭 FAST</string>
+</resources>
